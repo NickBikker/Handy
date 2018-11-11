@@ -1,0 +1,76 @@
+body{
+     margin: 0;
+     padding: 0;
+ }
+
+li{
+    color: white;
+    display: inline-block;
+}
+
+h2{
+    float: right;
+}
+
+.page-wrapper{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.logo{
+    float: left;
+    margin: 5px 5px 5px 30px;
+
+}
+
+.navbar{
+    background-color: black;
+    list-style-type: none;
+    float: right;
+    width: 950px;
+    height: 50px;
+    padding-left: 0;
+    margin-right: 25px;
+    margin-top: 5px;
+
+}
+
+.header-img{
+    position: absolute;
+    top: 62px;
+    left: 0;
+    z-index: -1;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    float: left;
+    margin-top: 600px;
+    margin-left: 25px;
+    grid-gap: 25px;
+    position: relative;
+}
+
+.banner1{
+    grid-column: 1/2;
+}
+
+.banner2{
+    grid-column: 2/3;
+}
+
+.banner3{
+    grid-column: 3/4;
+}
+
+.mooiegeleblok{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
