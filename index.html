@@ -5,27 +5,32 @@
     <title>Handy</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
-<img src="img/header.jpg" class="header-img">
 <div class="page-wrapper">
     <img src="img/logo.jpg" class="logo">
-    <ul class="navbar">
-        <li>papa</li>
-        <li>papa
-            <ul onclick="dropdown()" id="dropdownbox">
-            <li>papa</li>
-            <li>papa</li>
-            <li>papa</li>
-        </ul>
-        </li>
-        <li>papa</li>
-        <li>papa</li>
-        <li>papa</li>
-    </ul>
-    <div class="filler">
-
+    <div class="header-div">
+        <img src="img/header.jpg" class="header-img">
     </div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+            <a class="dropbtn">Over ons<i class="fas fa-angle-down" style="margin-left: 5px;"></i></a>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#nieuws">Nieuws</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
     <div class="grid">
         <img src="img/banner-1.jpg" class="banner1">
         <img src="img/banner-2.jpg" class="banner2">
@@ -33,9 +38,38 @@
     </div>
 </div>
 <div class="mooiegeleblok">
-    <div class="banner1"><h2>Wij bouwen oplossingen</h2></div>
-    <div class="banner2"><p>Die echt werken</p></div>
-    <div class="banner3"><button>Meer weten?</button></div>
+    <h2 class="ribbontitle">Wij bouwen oplossingen</h2>
+    <p class="ribbontext">Die echt werken</p>
+    <a href="diensten.html" class="button" style="font-size: 16px;">MEER WETEN?</a>
+</div>
+<div class="page-wrapper">
+    <div class="footer-div">
+        <img src="img/footer.jpg" class="footer-img">
+    </div>
+    <div class="gridfooter">
+        <div class="deals"><i class="far fa-handshake" style="font-size: 60px; margin: 10px; float: left;"></i><h1 class="titlebox">Deals<br></h1><p class="textbox">Bekijk onze deals</p></div>
+        <div class="diensten"><i class="fas fa-toolbox" style="font-size: 60px; margin: 10px; float: left;"></i><h1 class="titlebox">Diensten<br></h1><p class="textbox">Bekijk onze diensten</p></div>
+        <div class="contact"><i class="far fa-envelope" style="font-size: 60px; margin: 10px; float: left;"></i><h1 class="titlebox">Contact<br></h1><p class="textbox">Stuur een bericht</p></div>
+    </div>
+</div>
+<div class="page-wrapper">
+<div class="gridbottom">
+    <hr>
+    <div class="bottomtext">
+        <h1>Over ons</h1>
+        <p class="text">orem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Aenean commodo ligula eget dolor. Aenean massa.
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            Donec pede justo, fringilla vel, aliquet nec, vulputate </p>
+    </div>
+    <div class="bottominformation">
+        <h1>Contact</h1>
+        <p><i class="fas fa-map-marker-alt" style="font-size:20px; margin: 10px;"></i>Romboutslaan 34<br></p>
+        <p><i class="fas fa-mobile-alt" style="font-size:20px; margin: 10px;"></i>078 - 699 9999<br></p>
+        <p><i class="far fa-envelope" style="font-size:20px; margin: 10px;"></i>info@davinci-handy.nl<br></p>
+    </div>
+</div>
 </div>
 </body>
 </html>
