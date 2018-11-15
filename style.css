@@ -10,7 +10,7 @@ h1 {
     font-size: 32px;
 }
 
-ul {
+.navbar{
     list-style-type: none;
     margin: 0 25px 0 0;
     padding: 0;
@@ -308,18 +308,50 @@ footer {
 }
 
 .textpage2{
-    margin: 10px;
+    margin: 0;
 }
 
 .titlepage2{
     margin-top: 10px;
 }
 
-a{
+.buttondienst{
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+.buttondienst:hover{
     color: white;
+}
+
+.hoverword p {
+    color: #ffe718;
+    display: inline;
+}
+
+.hoverword {
+    position: relative;
+    display: inline;
+}
+
+.hoverword .hovertext {
+    visibility: hidden;
+    width: 200px;
+    height: auto;
+    background-color: #5f656d;
+    color: #fff;
+    text-align: left;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-left: 5px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 1;
+}
+
+.hoverword:hover .hovertext {
+    visibility: visible;
 }
