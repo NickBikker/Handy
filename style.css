@@ -292,3 +292,34 @@ footer {
 .buttons {
     height: 500px !important;
 }
+
+.gridpage2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    float: left;
+    margin-top: 580px;
+    margin-left: 25px;
+    grid-gap: 25px;
+    position: relative;
+}
+
+.textbox2{
+    grid-column: 1/4;
+}
+
+.textpage2{
+    margin: 10px;
+}
+
+.titlepage2{
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
